@@ -1,0 +1,77 @@
+/* Importa a fonte Roboto do Google Fonts para ser usada no documento */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define estilos globais para todos os elementos no documento */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão para todos os elementos */
+}
+
+/* Estilos específicos para o corpo do documento */
+body {
+    background: #000000; /* Cor de fundo preta */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 1000vh; /* Garante que o corpo tenha pelo menos a altura da tela (viewport) */
+}
+
+/* Estilos para o título h2 */
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffffff; /* Cor do texto branca */
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 26px;
+}
+
+/* Estilos para campos de entrada de texto */
+input {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    height: 74px;
+    width: 342px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff; 
+    opacity: 0.7;
+}
+
+/* Estilos específicos para campos de entrada com classe 'input-min' */
+.input-min {
+    margin-right: 62px;
+}
+
+/* Estilos para o botão */
+button {
+    background: #aec346; /* Cor de fundo do botão */
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35); /* Sombra do botão */
+    border-radius: 10px;
+    width: 342px;
+    height: 72px;
+    color: #ffffff; 
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Efeito de hover (quando o mouse está sobre o botão) */
+button:hover {
+    opacity: 0.9;
+}
+
+/* Efeito de clique (quando o botão está sendo pressionado) */
+button:active {
+    opacity: 0.8;
+}
